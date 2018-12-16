@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.moon.scrollabletab">
+    package="com.example.moon.ECommerse">
+
+    <uses-permission android:name="android.permission.INTERNET"
+        ></uses-permission>
 
     <application
         android:allowBackup="true"
@@ -9,13 +12,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/MyMaterialTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".activies.MainActivity" />
+        <activity android:name=".activies.ProductDetail" />
+        <activity android:name=".activies.Cart_card" />
+        <activity android:name=".payment.Payment" />
+        <activity android:name=".activies.Login_paze">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".activies.Registration" />
+        <activity android:name=".activies.PhoneValidation" />
+        <activity android:name=".activies.CodeVarification"></activity>
     </application>
 
 </manifest>

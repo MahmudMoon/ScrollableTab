@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "504464620066",
+    "firebase_url": "https://ecommerse-e63a8.firebaseio.com",
+    "project_id": "ecommerse-e63a8",
+    "storage_bucket": "ecommerse-e63a8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:504464620066:android:67e7005c6eb274c6",
+        "android_client_info": {
+          "package_name": "com.example.moon.ECommerse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "504464620066-rvk4eds0ro5jd72oule09eblqdumqkjt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.moon.ECommerse",
+            "certificate_hash": "88d6a0cbc44c4772af7dcac0123619e0540d6c90"
+          }
+        },
+        {
+          "client_id": "504464620066-p7u5e5rkcrdrb8mcbg3pso75cfakaj2b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOsOxZcEKLdbbW3w7kOT-_WM0yfl5cIBE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "504464620066-p7u5e5rkcrdrb8mcbg3pso75cfakaj2b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
